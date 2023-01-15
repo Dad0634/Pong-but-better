@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
-#include "rs232.c"
+#include "lib\rs232.c"
 
 
 
@@ -323,6 +323,9 @@ void collision_bottom_wall()
 void score_point_right_wall_paddle_a()
 {
     if(ball_old_position_x + ball_movement_x > window_x)
+    {
+
+    }
 
 }
 
